@@ -47,7 +47,7 @@ import microverse from './company/microverse.png';
 
 import komikult from './projects/komikult.png';
 import biblioteca from './projects/biblioteca.png';
-import Barbertech from './projects/Barbertech.png';
+import Barbertech from './projects/barbertech.png';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
