@@ -108,12 +108,12 @@ const technologies = [
   {
     name: 'figma',
     icon: figma,
-  },{
-    name: 'Next JS', 
+  }, {
+    name: 'Next JS',
     icon: nextjs,
-  },{ 
-    name: 'Python', 
-    icon: python 
+  }, {
+    name: 'Python',
+    icon: python
   }
 ];
 
@@ -131,6 +131,59 @@ const experiences = [
     icon: microverse,
     iconBg: '#333333',
     date: 'Febrero 2026 - Agosto 2026',
+  },
+];
+const estudios = [
+  {
+    title: 'Tecnólogo en Análisis y Desarrollo de Software',
+    school_name: 'SENA Servicio Nacional de Aprendizaje',
+    icon: microverse, // Asegúrate de importar el ícono que prefieras en la parte superior
+    iconBg: '#333333',
+    date: 'Enero 2024 - presente',
+  },
+  {
+    title: 'técnico en desarollo de software',
+    school_name: 'SENA Servicio Nacional de Aprendizaje',
+    icon: microverse,
+    iconBg: '#333333',
+    date: '2023 - 2024',
+  },
+  {
+    title: 'Curso Desarrollo Web Full Stack',
+    school_name: 'Talento tech bogota',
+    icon: kelhel,
+    iconBg: '#333333',
+    date: '2023 - 2024',
+  },
+  {
+    title: 'Bachiller Académico',
+    school_name: 'Salesiano juan del rizzo ', 
+    icon: coverhunt,
+    iconBg: '#333333',
+    date: 'Noviembre 2021',
+  },
+];
+
+ const referencias = [
+  {
+    name: "Sebastian sanchez bejarano",
+    designation: "compañero de Desarrollo",
+    company: "SENA",
+    contact: "+57 315 4991661",
+    email: "sebastiansanchez1236@gmail.com "
+  },
+  {
+   name: "Johann moreno calixto",
+    designation: "jefe de Desarrollo",
+    company: "Group  cos",
+    contact: "+57 300 000 0000",
+    email: "cmartinez@ejemplo.com"
+  },
+  {
+    name: "David guerrero",
+    designation: "Web Master Lead UX/UI Designer",
+    contact: "+57 315 5014556",
+    
   },
 ];
 
@@ -224,7 +277,8 @@ const projects = [
     repo: '',
     demo: '',
   },
-  
+
+
 ];
 
-export { services, technologies, experiences, projects };
+export { services, technologies, experiences, projects, estudios, referencias };

@@ -53,6 +53,7 @@ import math from './projects/math-magicians.png';
 import movie from './projects/movie-metro.png';
 import nyeusi from './projects/nyeusi.png';
 import space from './projects/space-hub.png';
+import estudios from './backgrounds/estudios.jpg'
 
 
 export {
@@ -105,4 +106,5 @@ export {
   dcc,
   kelhel,
   microverse,
+  estudios,
 };

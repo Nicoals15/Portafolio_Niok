@@ -7,6 +7,7 @@ import {
   Navbar,
   Tech,
   Projects,
+  Referencias,
 } from './components';
 
 const App = () => {
@@ -28,15 +29,17 @@ const App = () => {
 
         <Projects />
 
-        <div
-          className="bg-experience bg-cover bg-center bg-no-repeat 
-            rounded-tl-[150px] rounded-br-[150px]">
-          <div
-            className="bg-experienceLight bg-cover bg-center 
-            bg-no-repeat rounded-tl-[150px] rounded-br-[130px]">
+        {/* Contenedor de Experiencia (Claro) - Curvas SOLO en la parte superior */}
+        <div className="bg-experience bg-cover bg-center bg-no-repeat rounded-tl-[150px]">
+          <div className="bg-experienceLight bg-cover bg-center bg-no-repeat rounded-tl-[150px] pb-2">
             <Experience />
           </div>
         </div>
+        
+        <div className="bg-black pt-4">
+          <Referencias />
+        </div>
+
         <div className="relative z-0">
           <Contact />
         </div>

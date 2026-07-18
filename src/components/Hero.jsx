@@ -45,7 +45,7 @@ const Hero = () => {
                 <br /> Guerrero Torres
               </span>
             </h1>
-            <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
+            <p className={`${styles.heroSubText} mt-2 text-battleGray`}>
               Desarollador full stack. <br className="sm:block hidden" />
               especializo en el diseño y desarrollo de aplicaciones web orientadas a la automatización de procesos corporativos.
             </p>
