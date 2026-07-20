@@ -212,9 +212,9 @@ const projects = [
   },
   {
     id: 'project-2',
-    name: 'SYC_COS',
+    name: 'Seleccion',
     description:
-      'A leaderboard list app that displays scores submitted by different players.',
+      'Aplicacion para llevar contratacion y proceso de seleccion de personal.',
     tags: [
       {
         name: 'react',
@@ -235,8 +235,8 @@ const projects = [
   },
   {
     id: 'project-3',
-    name: 'Dimension_cos',
-    description: 'This is a single-page calculator app built with React',
+    name: 'Dimension',
+    description: 'Dimensionamiento para llevar estadisticas de seleccion de personas y cantidad de personas requeridas para la busqueda ',
     tags: [
       {
         name: 'nextjs',
@@ -258,7 +258,7 @@ const projects = [
   {
     id: 'project-4',
     name: 'Barbertech',
-    description: `A single-page application that allows users to search for any movie or show's ratings and its details.`,
+    description: `Aplicativo de gestion de citas para una barberia con estadisticas en tiempo real.`,
     tags: [
       {
         name: 'nextjs',
